@@ -1,0 +1,66 @@
+body {
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #00001A;
+}
+
+h1, h2, p, label {
+  color: #FFFFFF;
+}
+
+#verseSubmit {
+  margin: 0 auto;
+  width: 6em;
+}
+
+.header {
+  margin: 0 auto;
+  width: 400px;
+  height: 300px;
+  outline: solid 1px #FFD700;
+}
+
+.header h1 {
+  text-align: center;
+  color: #FFD700;
+}
+
+.header form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  color: #FFD700;
+}
+
+.header form label {
+  color: #FFD700;
+  text-align: center;
+}
+
+.header form input {
+  margin: 0 auto;
+  width: 15em;
+}
+
+.verseText h2, .verseText p {
+  text-align: center;
+  color: #FFD700;
+}
+
+.footer {
+  position: fixed;
+  display: flex;
+  flex: 2;
+  bottom:0;
+  left: 0;
+  width: 100%;
+  height: 5em;
+  background-color: #FFD700;
+  justify-content: center;
+  align-items: center;
+}
